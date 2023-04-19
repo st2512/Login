@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script>
+    <title>Form Register</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="#" method="post">
+            <div class="mail-field">
+                <input type="email" name="email" placeholder="Create Email">
+            </div>
+            <div class="pass-field">
+                <input type="password" name="password" placeholder="Create Password">
+                <i class="fa-solid fa-eye"></i>
+            </div>
+            <div class="content">
+                <p>Password Must Contains</p>
+                <ul class="requirement-list">
+                    <li> 
+                        <i class="fa-solid fa-circle"></i>
+                        <span> At least 8 characters length</span>
+                    </li>
+                    <li> 
+                        <i class="fa-solid fa-circle"></i>
+                        <span> At least 1 uppercase letter (A-Z)</span>
+                    </li>
+                    <li> 
+                        <i class="fa-solid fa-circle"></i>
+                        <span> At least 1 lowercase letter (a-z)</span>
+                    </li>
+                    <li> 
+                        <i class="fa-solid fa-circle"></i>
+                        <span> At least 1 numer (0-9)</span>
+                    </li>
+                    <li> 
+                        <i class="fa-solid fa-circle"></i>
+                        <span> At least 1 special symbol (!-$)</span>
+                    </li>
+                </ul>
+                <button> Register </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
